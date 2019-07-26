@@ -1,0 +1,410 @@
+body {
+    font-family: "MyriadProRegular", Arial, sans-serif;
+}
+
+@font-face {
+    font-family: "MyriadProSemiBold"; 
+    src: url(../fonts/MyriadProSemiBold.ttf);
+}
+
+@font-face {
+    font-family: "MyriadProRegular"; 
+    src: url(../fonts/MyriadProRegular.ttf);
+}
+
+@font-face {
+    font-family: "MyriadProLight"; 
+    src: url(../fonts/MyriadProLight.ttf);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 36px;
+}
+
+a:first-child {
+    padding: 0;
+}
+
+.top-menu a {
+    font-family: "MyriadProRegular";
+    font-size: 21px;
+    letter-spacing: -0.36px;
+}
+
+.bottom-menu a {
+    color: #747373;
+    font-family: "MyriadProSemiBold"; 
+}
+
+.title {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 400;
+    font-family: "MyriadProRegular";
+}
+
+.title--black {
+    font-size: 48px;
+    color: #4e4e4e;;
+}
+
+.subtitle {
+    font-size: 25px;
+    color: #737070;
+}
+
+.subtitle_white {
+    font-size: 25px;
+    color: #fff;
+}
+
+.main-page {
+    max-width: 100%;
+    margin: 0 auto;
+    background: rgb(78,126,80);
+    background: radial-gradient(circle, rgba(78,126,80,1) 0%, rgba(52,88,54,1) 74%);
+    padding: 40px;
+}
+
+.wrapper {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.img-logo {
+    display: inline-block;
+}
+
+.text-logo { 
+    color: #fff; 
+    display: inline-block;
+    font-size: 37px;
+    margin-left: 12px;
+}
+
+.logo::after {
+    content: '';
+    height: 1px;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.top-menu {
+    float: right;
+}
+
+.top-menu__button {
+    width: 110px;
+    height: 43px;
+    font-family: "MyriadProRegular"; 
+    border: 3px solid #fff;
+    color: #fff;
+    padding: 10px 10px;
+    line-height: 16px;
+    background: transparent;
+    font-size: 21px;
+    letter-spacing: -0.77px;
+    margin-left: 36px;
+}
+
+.main-text {    
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 106px;
+    text-align: center;
+}
+
+.more-flavour {
+    max-width: 100%;
+    background-color: #fff;
+}
+
+.more-flavour__content {    
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 121px;
+    text-align: center;
+    padding-bottom: 119px;
+}
+
+.img-watermelon-cutted {
+    padding-top: 75px;
+}
+
+.pure-health {
+    width: 100%;
+    background-color: #2b342b;
+    position: relative;
+}
+
+.pure-health__content {    
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 101px;
+    text-align: center;
+}
+
+.health-wrapper {
+    position: relative;
+    padding-bottom: 102px;
+}
+
+.protein {
+    font-family: MyriadProLight;
+    font-size: 22px;
+    color: #fff;
+    position: absolute;
+    top: 77px;
+    right: 200px;
+}
+
+.protein:after {
+    content: "";
+    display: block;
+    border: 2px solid #d4fa7a;
+    width: 58px;
+    position: absolute;
+    top: -10px;
+    left: 17px;
+    transform: rotate(150deg);
+}
+
+.protein::before {
+    content: "Protein 0,63g";
+    border-bottom: 4px solid #d4fa7a;
+    width: 134px;
+    position: absolute;
+    top: -51px;
+    left: 70px;
+    text-align: right;
+}
+
+.calories {
+    font-family: MyriadProLight;
+    font-size: 22px;
+    color: #fff;
+    position: absolute;
+    top: 100px;
+    left: 173px;
+}
+
+.calories::after {
+    content: "Calories 35kcal";
+    border-bottom: 5px solid #fd6363;
+    width: 150px;
+    position: absolute;
+    top: 13px;
+    left: -169px;
+    text-align: left;
+}
+
+.calories::before {
+    content: "";
+    border-bottom: 5px solid #fd6363;
+    width: 34px;
+    position: absolute;
+    top: 29px;
+    right: -9px;
+    transform: rotate(136deg);
+}
+
+.water { 
+    font-family: MyriadProLight;
+    font-size: 22px;
+    color: #fff;
+    position: absolute;
+    top: 145px;
+    right: 216px;
+}
+
+.water::after {
+    content: "Water 92%";
+    border-bottom: 4px solid #8cdbf2;
+    width: 160px;
+    position: absolute;
+    top: -18px;
+    left: 22px;
+    text-align: right;
+}
+
+.fat {
+    font-family: MyriadProLight;
+    font-size: 22px;
+    color: #fff;
+    position: absolute;
+    top: 205px;
+    left: 290px;
+}
+
+.fat::after {
+    content: "Fat 0.63g";
+    border-bottom: 4px solid #fef45a;
+    width: 178px;
+    position: absolute;
+    top: -18px;
+    left: -178px;
+    text-align: left;
+}
+
+.i-css-cicrle,
+        .i-css-cicrle::before,
+        .i-css-cicrle::after {
+            content: '';
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+            display: inline-block;
+            border: 2px solid #fff;
+            border-radius: 50%;
+        }
+
+
+        .i-css-cicrle {
+            position: absolute;
+            width: 22px;
+            height: 22px;
+            margin: 0;
+        }
+
+        .i-css-cicrle::before {
+            margin: auto;
+            width: 75%;
+            height: 75%;
+        }
+
+        .i-css-cicrle::after {
+            margin: auto;
+            width: 35%;
+            height: 35%;
+            background: #fff;
+        }
+
+.our-plans {
+    max-width: 100%;
+    background-color: #e9ede9;
+    padding-top: 115px;la
+}
+
+.our-plans__content {    
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.all-plans {
+    padding-top: 95px;
+    text-align: center;
+}
+
+.all-plans__item {
+    width: 30%;
+    margin-right: 3%;
+    display: inline-block;
+}
+
+.all-plans__item:last-child {
+    margin-right: 0;
+}
+
+.one-plan {
+    background: #e2e4e1;
+    text-align: center;
+    padding-top: 34px;
+}
+
+.name-tariffs {
+    font-family: MyriadProLight;
+    font-size: 33px;
+    color: #afacac;
+}
+
+.starting-at {
+    font-family: MyriadProLight;
+    font-size: 33px;
+    color: #4e4e4e;
+    padding-top: 51px;
+}
+
+.title-plan {
+    font-family: MyriadProSemibold;
+    color: #7d7b7b;
+    font-size: 33px;
+    font-weight: 400;
+    letter-spacing: -0.72px;
+}
+
+.price-plan {
+    color: #b38e48;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.button-plans {
+    width: 113px;
+    height: 37px;
+    background-color: #71ae5a; 
+    color: #e9ede9;
+    font-size: 16px;
+    border-radius: 13px;
+    margin-top: 39px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.footer {
+    max-width: 100%;
+    background-color: #e9ede9;
+    padding-top: 202px;
+    padding-bottom: 102px;
+}
+
+.footer::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.footer__wrapper {
+    position: relative;
+}
+
+.footer__column-one {
+    display: inline-block;
+}
+
+.footer__column-two {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.bottom-menu {
+    display: inline-block;
+    color: #747373;
+    font-size: 18px;
+    padding-right: 17px;
+    letter-spacing: -0.77px;
+}
+
+.copyright {
+    font-family: "MyriadProLight"; 
+    color: #958f8f;
+    font-size: 18px;
+    letter-spacing: -0.77px;
+    padding-top: 16px;
+}
+
+
+
+
+   
