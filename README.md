@@ -1,1 +1,1 @@
-Simple Static Landing Page: https://sashami.github.io/staticLP/
+Simple Static Landing Page: https://smkhdv.github.io/staticLP/
