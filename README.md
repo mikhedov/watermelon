@@ -1,1 +1,1 @@
-Simple Static Landing Page: https://smkhdv.github.io/watermelon/
+Simple Static Landing Page: https://mikhedov.github.io/watermelon/
